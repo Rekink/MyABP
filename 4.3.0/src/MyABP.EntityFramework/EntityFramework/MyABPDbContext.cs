@@ -49,7 +49,6 @@ namespace MyABP.EntityFramework
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
         }
 
         //TODO: Define an IDbSet for your Entities...
