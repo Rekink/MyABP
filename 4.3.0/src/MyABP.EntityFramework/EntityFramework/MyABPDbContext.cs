@@ -53,6 +53,10 @@ namespace MyABP.EntityFramework
         }
 
         //TODO: Define an IDbSet for your Entities...
-        public IDbSet<Task> Tasks { get; set; }
+        public IDbSet<Task> Tasks
+        {
+            get;
+            set;
+        }
     }
 }
