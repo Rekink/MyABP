@@ -1,9 +1,5 @@
 ﻿using Abp.Application.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MyABP.Tasks.Dtos;
 
 namespace MyABP.Tasks
 {
@@ -12,6 +8,8 @@ namespace MyABP.Tasks
     /// </summary>
     public interface ITaskAppService : IApplicationService
     {
-
+        //定义接口与方法
+        void CreateTask(CreateTaskInput input);
+         
     }
 }

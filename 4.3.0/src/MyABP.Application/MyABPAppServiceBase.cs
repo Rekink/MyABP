@@ -19,6 +19,10 @@ namespace MyABP
 
         public UserManager UserManager { get; set; }
 
+        /// <summary>
+        /// 基类，在该基类中的构造函数中定义LocalizationSourceName。
+        /// 这样，就不用为所有的服务类重复定义了。
+        /// </summary>
         protected MyABPAppServiceBase()
         {
             LocalizationSourceName = MyABPConsts.LocalizationSourceName;
