@@ -5,7 +5,6 @@ using Abp.IdentityFramework;
 using Abp.Runtime.Session;
 using MyABP.Authorization.Users;
 using MyABP.MultiTenancy;
-using MyABP.Users;
 using Microsoft.AspNet.Identity;
 
 namespace MyABP

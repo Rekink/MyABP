@@ -20,7 +20,7 @@ namespace MyABP.Tasks
         {
             // 使用_TaskRepository执行数据库操作
             var task = _taskRepository.FirstOrDefault(p=>p.Description == input.Description);
-            if (task!=null)
+            if (task != null)
             {
                 //
             }
